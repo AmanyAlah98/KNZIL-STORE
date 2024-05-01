@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "name":" Short shirt",
+        "price": 200,
+        "image": "image/1.jpg"
+    },
+    {
+        "id": 2,
+        "name":" Colorful Shirt",
+        "price": 250,
+        "image": "image/2.jpg"
+    },
+    {
+        "id": 3,
+        "name":" Beige shirt",
+        "price": 290,
+        "image": "image/3.jpg"
+    },
+    {
+        "id": 4,
+        "name":" Formal shirt",
+        "price": 200,
+        "image": "image/4.jpg"
+    },
+    {
+        "id": 5,
+        "name":" Beige Short shirt",
+        "price": 300,
+        "image": "image/5.jpg"
+    },
+    {
+        "id": 6,
+        "name":" Green Shirt",
+        "price": 200,
+        "image": "image/6.jpg"
+    },
+    {
+        "id": 7,
+        "name":" Short Shirt",
+        "price": 200,
+        "image": "image/1.jpg"
+    },
+    {
+        "id": 8,
+        "name":" Colorful Shirt",
+        "price": 200,
+        "image": "image/2.jpg"
+    },
+    {
+        "id": 1,
+        "name":" Short shirt",
+        "price": 200,
+        "image": "image/4.jpg"
+    },
+    
+    {
+        "id": 1,
+        "name":" Formal Jacket",
+        "price": 200,
+        "image": "image/M1.jpg"
+    },
+    {
+        "id": 2,
+        "name":"T-Shirt",
+        "price": 250,
+        "image": "image/p1.png"
+    },
+    {
+        "id": 3,
+        "name":" Colorful Jacket",
+        "price": 290,
+        "image": "image/M4.jpg"
+    },
+    {
+        "id": 4,
+        "name":"Jeans Pants",
+        "price": 200,
+        "image": "image/p1.png"
+    },
+    {
+        "id": 5,
+        "name":" T-Shirt",
+        "price": 300,
+        "image": "image/M5.jpg"
+    },
+    {
+        "id": 6,
+        "name":" Jeans Pants",
+        "price": 200,
+        "image": "image/M1.jpg"
+    },
+    {
+        "id": 7,
+        "name":" Colorful Jacket",
+        "price": 200,
+        "image": "image/M1.jpg"
+    },
+    {
+        "id": 8,
+        "name":"T-Shirt",
+        "price": 200,
+        "image": "image/p1.png"
+    },
+    {
+        "id": 7,
+        "name":" Colorful Jacket",
+        "price": 200,
+        "image": "image/M4.jpg"
+    }
+
+]

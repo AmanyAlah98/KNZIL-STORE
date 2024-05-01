@@ -1,0 +1,203 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {background-color: rgb(254, 247, 245);}
+#nav{background-color: rgb(254, 247, 245);
+    
+}
+
+.navbar-brand {
+
+    font-size: 2rem;
+    color: rgb(14, 56, 42);
+    font-family: "Lobster", sans-serif;
+    text-shadow: 2px 2px rgb(221, 220, 207);
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus{
+    color: rgb(216, 209, 111);
+}
+nav ul li a{
+    display: block;
+    margin: 0 10px;
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+}nav ul li a::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    width: 0;
+    height: 2.5px;
+    transition: all 0.3s ease;
+}
+nav ul li a:hover::before{
+    width: 100%;
+}
+nav ul i{
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.logo1{
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%;
+}
+
+.nav-link{
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 2px 2px rgb(221, 220, 207);
+
+}
+.nav-link:hover{
+    color: rgb(13, 73, 58);
+}
+.search{
+    height: 40px;
+    width:80%;
+    border-radius:60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'Rubik', sans-serif;
+    border: 2px solid rgb(13, 73, 58);
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    border-radius:60px;
+    background: rgb(14, 56, 42);
+    color: white;
+    font-weight: 700;
+}
+.carousel-inner{
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 80vh;
+} 
+.carousel-caption{
+    top:10%;
+}
+.slider-title{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+    color: rgb(245, 242, 242);
+    background-color: rgba(5, 5, 5, 0.37);
+    text-align: center;
+    padding: 20px;
+    text-shadow: 2px 2px rgba(92, 10, 10, 0.815);}
+    
+.btn{
+        height: 40px;
+        width: 25%;
+        outline: none;
+        border: none;
+        border-radius:60px;
+        background: rgb(13, 73, 58);
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+        text-align: center;
+        text-shadow: 2px 2px rgba(92, 10, 10, 0.815);
+        position: center;
+}
+.text{
+    font-family: "Roboto Slab", serif;
+    text-transform: uppercase;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    padding: 20px;
+    text-shadow: 2px 2px rgba(92, 10, 10, 0.815);
+}
+.outer-div{
+    height: 350px;
+    overflow: hidden;
+}
+.inner-div1{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s ease;
+    background-image: url(../image/for-men.jpg);
+    margin: auto;
+}
+.inner-div1:hover{
+    transform:scale(1.2);
+}
+.inner-div2{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s ease;
+    background-image: url(../image/for-women.jpg);
+    margin: auto;
+}
+.inner-div2:hover{
+    transform:scale(1.2);
+}
+.zoom-box-text{
+    text-align: center;
+    line-height: 300px;
+    color:white;
+    font-family: 'Rubik', sans-serif;
+}
+.listProduct{width: 90%;
+    margin-left: auto;
+    margin-right: auto;}
+
+.her, .him, .brand{
+    margin-top: 2px;
+    position: center;
+    font-size: 30px;
+    outline: none;
+    border: none;
+    padding: 20px;
+    background: rgb(13, 73, 58);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 2px 2px rgba(92, 10, 10, 0.815);
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+}
+
+#discount{
+	background-image: url(../image/cover500.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.discount-session-content {
+	padding: 150px 0;
+	color: white;
+}
+
+.icon{
+	font-size: 20px;
+	color: rgb(240, 216, 216);
+}
+
+footer{
+	background-image: url(../image/footer-background.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+	color: aliceblue;
+}
